@@ -1,0 +1,56 @@
+.Navbar {
+  font-family: "Poppins" sans-serif;
+  padding: 10px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.logos {
+  font-size: 2rem;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.logos:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.navmenu {
+  list-style: none;
+
+  gap: 20px;
+}
+.hover-links {
+  font-weight: 500;
+  color:blue;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hover-links:hover {
+  color: blue;
+  transition: 0.5s;
+}
+
+.active-links {
+  color: blue;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.active-links::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: blue;
+}

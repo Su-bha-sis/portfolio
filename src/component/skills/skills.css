@@ -1,0 +1,38 @@
+.skills {
+  height: 100vh;
+ /* background: #000 !important;  */
+ padding: 120px 10px;
+}
+.skill-title h1{
+    color:#ffe66d;
+    font-weight: 700;
+}
+.progress{
+    background: #4ECDC4 !important;
+    
+}
+
+.skills-slider {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cards-flex {
+  flex: 1 0 45%;
+}
+
+
+.progress-bar{
+    width: 100%;
+    background-color: #1A535C !important;
+    border-radius: 5px;
+    overflow: hidden;
+     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+.slider-tile p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F7FFF7;
+}
