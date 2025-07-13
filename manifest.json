@@ -1,0 +1,25 @@
+{
+  "short_name": "Portfolio",
+  "name": "Subhasis | Portfolio",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "type": "image-512x512/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "type": "image-512x512/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0d6efd",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "",
+  "description": "Personal portfolio showcasing projects, skills, and contact information.",
+  "lang": "en-US"
+}
+
