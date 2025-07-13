@@ -1,0 +1,64 @@
+.Hero-section {
+  font-size: 22px;
+  height: 100vh;
+}
+.button {
+  gap: 20px;
+}
+
+.hero-left img {
+  width: 200px;
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.hero-right {
+  font-weight: 500;
+  color: #f7fff7;
+}
+
+.hero-right h1 span {
+  color: black;
+
+  font-weight: 700;
+}
+
+.primary-btn {
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: linear-gradient(45deg, #FF6B6B, #E63946);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.primary-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}
+
+.Secondary-btn {
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: transparent;
+    color: #4ECDC4;
+    border: 2px solid #4ECDC4;
+}
+
+.Secondary-btn:hover {
+    background: #4ECDC4;
+    color: #0E1A1C;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(78, 205, 196, 0.3);
+}
