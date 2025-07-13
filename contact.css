@@ -1,0 +1,22 @@
+.contact {
+  height: 60vh;
+  padding: 120px 10px;
+}
+
+.text h1 {
+  font-weight: 700;
+  color: #ffe66d;
+}
+
+.icon {
+  font-size: 23px;
+  fill: #f7fff7;
+  background: transparent !important;
+  transition: all 0.3s ease;
+}
+
+.icon:hover {
+  transform: translateY(-5px) scale(1.1);
+  fill: #4ecdc4;
+  transition: 0.4s;
+}
