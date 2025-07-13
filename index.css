@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: #0E1A1C; */
+    box-sizing: border-box;
+    /* color: #f7fff7; */
+    color: #F7FFF7;
+    font-family:'DM-Sans',sans-serif ;
+}
+.container-box{
+     background: royalblue;   
+}
+
+h1{
+    font-family: poppins, sans-serif;
+}
